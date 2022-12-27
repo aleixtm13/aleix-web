@@ -1,0 +1,34 @@
+header {
+    font-family: sans-serif;
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background: orange;
+    padding: 16px;
+    box-shadow: 0 0 25px 0 black;
+  }
+
+header img {
+    height: 80px;
+    margin-left: 40px;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
