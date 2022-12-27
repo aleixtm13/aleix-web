@@ -4,7 +4,7 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <header>
+        <header className="text-gray-400 bg-orange-400 body-font">
             <nav>
             <ul>
                 <li><Link to="/events">Esdeveniments</Link></li>
