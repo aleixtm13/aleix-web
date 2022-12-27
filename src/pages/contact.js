@@ -66,6 +66,7 @@ const Contact = () => {
                         Nom
                         </label>
                         <input
+                        onChange={(e) => setName(e.target.value)}
                         type="text"
                         id="name"
                         name="name"
@@ -77,6 +78,7 @@ const Contact = () => {
                         Mail
                         </label>
                         <input
+                        onChange={(e) => setEmail(e.target.value)}
                         type="email"
                         id="email"
                         name="email"
@@ -90,6 +92,7 @@ const Contact = () => {
                         Missatge
                         </label>
                         <textarea
+                         onChange={(e) => setMessage(e.target.value)}
                         id="message"
                         name="message"
                         className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
